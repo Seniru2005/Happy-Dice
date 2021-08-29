@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393E46
 }
 
 h1 {
@@ -20,6 +20,8 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
+  max-width:100%;
+  transition: font-size 0.25s ease-out;
 }
 
 p {
@@ -41,3 +43,10 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@media (max-width:768.98px){
+  h1{
+    font-size:6rem;
+  }
+}
+
